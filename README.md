@@ -11,4 +11,7 @@ Breakdown of files:
     Clustering.py - this contains the code to run the k-means clustering algorithm on the player season data. It performs the clustering, selects the clusters
                     representing the best players, and then runs the clustering algorithm on those clusters to further filter for the very best players.
     
+    classification.py - this contains the code to train 7 classifiers on team matchup data and score them on training and testing data.
     
+    database.py - this contains utility functions used to load data from the csv files, and is imported by the other two files. It extracts the clustering
+                  features for the clustering algorithm.
