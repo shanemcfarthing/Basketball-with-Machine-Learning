@@ -17,6 +17,8 @@ Library requirements:
      catboost
      matplotlib
 
+Library install command: `pip install numpy sklearn catboost matplotlib`
+
 Breakdown of files:
       
     Clustering.py - this contains the code to run the k-means clustering algorithm on the player season data. It performs the clustering, selects the clusters
