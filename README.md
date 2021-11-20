@@ -6,6 +6,13 @@ of supervised learning algorithms are used to perform NBA game outcome predictio
 We find the top 87 players, including players such as Michael Jordan, Larry Bird, and Kobe Bryant, and we also see that of the models tested, the AdaBoost
 ensemble classifier performs the best at predicting the outcome of NBA basketball games, with an accuracy of 62.95% on the testing data.
 
+Library requirements:
+     
+     numpy
+     sklearn
+     catboost
+     matplotlib
+
 Breakdown of files:
       
     Clustering.py - this contains the code to run the k-means clustering algorithm on the player season data. It performs the clustering, selects the clusters
